@@ -25,7 +25,7 @@ SECRET_KEY = '3xts7p#hu5#%v(o1pp&d1$_@qm9d8km-g8t!0fp31^8uq8x$2e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['awarenessbrokers.org', 'www.awarenessbrokers.org', 'https://awarenessbrokers.org']
+ALLOWED_HOSTS = ['awarenessbrokers.org', 'www.awarenessbrokers.org', 'https://awarenessbrokers.org', 'awarenessnf.herokuapp.com']
 
 
 # Application definition
