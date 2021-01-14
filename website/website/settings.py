@@ -25,7 +25,7 @@ SECRET_KEY = '3xts7p#hu5#%v(o1pp&d1$_@qm9d8km-g8t!0fp31^8uq8x$2e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['awarenessbrokers.org', 'www.awarenessbrokers.org', 'https://awarenessbrokers.org', 'awarenessnf.herokuapp.com']
+ALLOWED_HOSTS = ['awarenessbrokers.org', 'www.awarenessbrokers.org','127.0.0.1', 'https://awarenessbrokers.org', 'awarenessnf.herokuapp.com']
 
 
 # Application definition
@@ -130,4 +130,3 @@ USE_TZ = True
 import os
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-STATICFILES_DIRS = (str(BASE_DIR.joinpath('static')),) 
