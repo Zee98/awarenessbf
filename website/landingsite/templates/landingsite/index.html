@@ -1,0 +1,817 @@
+{% extends 'landingsite/base.html' %}
+{% load static %}
+{% block content %}
+<div class="particle-container fullscreen bg3" data-scroll-index="0">
+    <!--==== Particles Background =====-->
+    <div id="particles" class="particles"></div>
+    <!--==== Overlay over particle =====-->
+    <div class="grediant-overlay opacity-85"></div>
+    <!--==== Center coloumn vertically and horizontally =====-->
+    <div class="center-col text-center white-text" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto" data-aos="fade-up" data-aos-duration="600"
+                    data-aos-delay="500">
+                    <!--==== Home Banner Text =====-->
+                    <div class="home-content">
+                        <h1 class="extra-large-heading">
+                            <span class="font-weight-extralight"></span>AWARENESS BROKERS FOUNDATION <br /><span
+                                id="typewriter"></span>
+                        </h1>
+                        <div class="clearfix mt-30">
+                            <a href="#" class="btn btn-outline-white mr-2" data-toggle="modal"
+                                data-target="#getstarted">
+                                Join us
+                            </a>
+                            <a href="#" class="btn btn-white">
+                                Donate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==== Scroll to about us section =====-->
+    <div class="scroll-down">
+        <a href="#about-us" data-scroll-goto="1">
+            <span></span>
+        </a>
+    </div>
+</div>
+
+<!-- **************************************-->
+<!-- **************About US**************-->
+<!-- **************************************-->
+<section class="about-us pt-100 pb-80 pb-0" data-scroll-index="1">
+    <div class="container">
+        <div class="row flex-row-reverse">
+            <div class="col-md-6 col-lg-7 mb-30">
+                <!--==== Section Heading Text =====-->
+                <div class="section-header">
+                    <h2><small class="text-primary">What We Are</small> About us</h2>
+                </div>
+                <!--==== About Us text =====-->
+                <div class="about-us-content">
+                    <p> The Awareness Brokers Foundation has been established to spread the awareness 
+                        needed to create a common intellectual boundary and a 
+                        relative balance between different groups of thought and beliefs in society.
+                    </p>
+                    <div class="clearfix">
+                        <a href="#" class="btn btn-primary">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5">
+                <!--==== About Us Image =====-->
+                <img src="{% static 'assets/images/awf.jpg' %}" alt="about us" />
+                <!--==== Excellence Text =====-->
+                <div class="excellance-tag bg-primary">
+                    <div class="excellance-text">
+                        <div class="icon">
+                            <i class="icon-trophy fa-3x"></i>
+                        </div>
+                        <h3>10</h3>
+                        <p><small>Years of Excellence</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- **************************************-->
+<!-- **************Our Steps**************-->
+<!-- **************************************-->
+<section class="pt-100 pb-80 bg-light our-steps mt--40" data-scroll-index="1">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">Our</small> Steps</h2>
+        </div>
+        <div class="row">
+            <!--==== First Step Text =====-->
+            <div class="col-md-4 mb-30" data-aos="fade-right" data-aos-duration="400">
+                <div class="our-step">
+                    <div class="step-number text-grediant">
+                        01.
+                    </div>
+                    <h6>Choose your option</h6>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's.</p>
+                </div>
+            </div>
+            <!--==== Second Step Text=====-->
+            <div class="col-md-4 mb-30" data-aos="fade-up" data-aos-duration="500">
+                <div class="our-step">
+                    <div class="step-number text-grediant">
+                        02.
+                    </div>
+                    <h6>make your account</h6>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's.</p>
+                </div>
+            </div>
+            <!--==== Third Step Text=====-->
+            <div class="col-md-4 mb-30" data-aos="fade-left" data-aos-duration="600">
+                <div class="our-step">
+                    <div class="step-number text-grediant">
+                        03.
+                    </div>
+                    <h6>let the system do your job</h6>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- **************************************-->
+<!-- ************Counter Section***********-->
+<!-- **************************************-->
+<div class="counter-section bg3 pt-100 pb-80" data-scroll-index="1">
+    <!--==== Grediant Overlay=====-->
+    <div class="grediant-overlay-reverse opacity-85"></div>
+    <div class="container">
+        <div class="row">
+            <!--==== Single countdown=====-->
+            <div class="col-md-2 mb-20">
+                <div class="counter-box-1">
+                    <div class="icon">
+                        <i class="fa fa-user fa-3x"></i>
+                    </div>
+                    <h2 class="counter">150</h2>
+                    <p class="counter-title">Members</p>
+                </div>
+            </div>
+            <!--==== Single countdown=====-->
+            <div class="col-md-2 mb-20">
+                <div class="counter-box-1">
+                    <div class="icon">
+                        <i class="fa fa-user fa-3x"></i>
+                    </div>
+                    <h2 class="counter">6500</h2>
+                    <p class="counter-title">Visitors</p>
+                </div>
+            </div>
+            <!--==== Single countdown=====-->
+            <div class="col-md-2 mb-20">
+                <div class="counter-box-1">
+                    <div class="icon">
+                        <i class="fa fa-graduation-cap fa-3x"></i>
+                    </div>
+                    <h2 class="counter">70</h2>
+                    <p class="counter-title">trainings</p>
+                </div>
+            </div>
+            <!--==== Single countdown=====-->
+            <div class="col-md-2 mb-20">
+                <div class="counter-box-1">
+                    <div class="icon">
+                        <i class="fa fa-pencil-square fa-3x"></i>
+                    </div>
+                    <h2 class="counter">35</h2>
+                    <p class="counter-title">bloggers </p>
+                </div>
+            </div>
+            <div class="col-md-2 mb-20">
+                <div class="counter-box-1">
+                    <div class="icon">
+                        <i class="fa fa-graduation-cap fa-3x"></i>
+                    </div>
+                    <h2 class="counter">3</h2>
+                    <p class="counter-title">scholarship</p>
+                </div>
+            </div>
+            <div class="col-md-2 mb-20">
+                <div class="counter-box-1">
+                    <div class="icon">
+                        <i class="fa fa-group fa-3x"></i>
+                    </div>
+                    <h2 class="counter">35</h2>
+                    <p class="counter-title">volunteers</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- **************************************-->
+<!-- ************** Single Portfolio Section**************-->
+<!-- **************************************-->
+<section class="single-portfolio" id="single-portfolio">
+    <div class="container">
+        <!--==== Single Portfolio Image =====-->
+        <div class="portfolio-image">
+        </div>
+        <!--==== Section Heading Text =====-->
+        <div class="section-header py-5 mb-0">
+        </div>
+        <div class="row">
+            <div class="col-md-7 col-lg-7">
+                <!--==== Single Portfolio Text =====-->
+                <div class="single-portfolio-content">
+                </div>
+            </div>
+            <div class="col-md-5 offset-lg-1 col-lg-4">
+                <!--==== Single Portfolio Tags =====-->
+                <div class="tags">
+                </div>
+                <!--==== Single Portfolio Share =====-->
+                <div class="social-link justify-content-between pt-15">
+                    <p><strong>Share</strong></p>
+                    <div class="d-flex">
+                        <a href="#" class="fb"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="tw"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="ln"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <!--==== Close Single Portfolio =====-->
+        <div class="close-btn">
+            <a href="#"><i class="icon-close fa-2x"></i></a>
+        </div>
+    </div>
+    <!--==== Single Portfolio Navigation =====-->
+    <div class="work-navigation-section section-spacer bg-light">
+        <div class="container">
+            <div class="row">
+                <!--==== Single Portfolio Prev Nav =====-->
+                <div class="col-6">
+                    <div class="work-nav prev-work">
+                    </div>
+                </div>
+                <!--==== Single Portfolio Next Nav =====-->
+                <div class="col-6">
+                    <div class="work-nav next-work">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- **************************************-->
+<!-- **************Portfolio Section**************-->
+<!-- **************************************-->
+<section class="section-spacer" data-scroll-index="2" data-aos="fade" data-aos-duration="400">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">Featured</small>Initiatives</h2>
+        </div>
+        <div class="work-list">
+            <!--==== Portfolio Type Filteration =====-->
+            <ul class="work-nav list-unstyled">
+                <li><a href="#" class="control filtr-active" data-filter="all">All</a></li>
+                <li><a href="#" class="control" data-filter="branding">branding</a></li>
+                <li><a href="#" class="control" data-filter="web-design">web-design</a></li>
+                <li><a href="#" class="control" data-filter="graphic-design">graphic-design</a>
+                </li>
+                <li><a href="#" class="control" data-filter="illustration">illustration</a>
+                </li>
+            </ul>
+            <!--==== Portfolio Items =====-->
+            <div class="filtr-container row">
+                <!--==== Single Portfolio Item =====-->
+                <div class="filtr-item" data-groups='["branding"]' data-index="1">
+                    <div class="work-grid-box-1">
+                        <div class="grediant-overlay opacity-85"></div>
+                        <div class="grid-image">
+                            <a href="#">
+                                <img src="{% static 'assets/images/works/project-4.jpg' %}" alt="Project name">
+                            </a>
+                        </div>
+                        <div class="grid-icon">
+                            <a href="#">
+                                <i class="icon-link"></i>
+                            </a>
+                        </div>
+                        <div class="grid-body">
+                            <h6 class="grid-title">LAMP</h6>
+                            <p class="grid-description">Branding</p>
+                        </div>
+                    </div>
+                </div>
+                <!--==== Single Portfolio Item =====-->
+                <div class="filtr-item" data-groups='["branding"]' data-index="2">
+                    <div class="work-grid-box-1">
+                        <div class="grediant-overlay opacity-85"></div>
+                        <div class="grid-image">
+                            <a href="#">
+                                <img src="{% static 'assets/images/works/project-1.jpg' %} " alt="Project name">
+                            </a>
+                        </div>
+                        <div class="grid-icon">
+                            <a href="#">
+                                <i class="icon-link"></i>
+                            </a>
+                        </div>
+                        <div class="grid-body">
+                            <h6 class="grid-title">App Landing page</h6>
+                            <p class="grid-description">Branding</p>
+                        </div>
+                    </div>
+                </div>
+                <!--==== Single Portfolio Item =====-->
+                <div class="filtr-item" data-groups='["web-design"]' data-index="3">
+                    <div class="work-grid-box-1">
+                        <div class="grediant-overlay opacity-85"></div>
+                        <div class="grid-image">
+                            <a href="#">
+                                <img src="{% static 'assets/images/works/project-5.jpg' %} " alt="Project name">
+                            </a>
+                        </div>
+                        <div class="grid-icon">
+                            <a href="#"> <i class="icon-link"></i> </a>
+                        </div>
+                        <div class="grid-body">
+                            <h6 class="grid-title">Dalmia</h6>
+                            <p class="grid-description">Web Design</p>
+                        </div>
+                    </div>
+                </div>
+                <!--==== Single Portfolio Item =====-->
+                <div class="filtr-item" data-groups='["web-design"]' data-index="4">
+                    <div class="work-grid-box-1">
+                        <div class="grediant-overlay opacity-85"></div>
+                        <div class="grid-image">
+                            <a href="#">
+                                <img src="{% static 'assets/images/works/project-6.jpg' %}" alt="Project name">
+                            </a>
+                        </div>
+                        <div class="grid-icon">
+                            <a href="#"> <i class="icon-link"></i> </a>
+                        </div>
+                        <div class="grid-body">
+                            <h6 class="grid-title">Pitch Club</h6>
+                            <p class="grid-description">Web Design</p>
+                        </div>
+                    </div>
+                </div>
+                <!--==== Single Portfolio Item =====-->
+                <div class="filtr-item" data-groups='["graphic-design"]' data-index="5">
+                    <div class="work-grid-box-1">
+                        <div class="grediant-overlay opacity-85"></div>
+                        <div class="grid-image">
+                            <a href="#">
+                                <img src="{% static 'assets/images/works/project-2.jpg' %}" alt="Project name">
+                            </a>
+                        </div>
+                        <div class="grid-icon">
+                            <a href="#"> <i class="icon-link"></i> </a>
+                        </div>
+                        <div class="grid-body">
+                            <h6 class="grid-title">Hunger</h6>
+                            <p class="grid-description">Graphic Design</p>
+                        </div>
+                    </div>
+                </div>
+                <!--==== Single Portfolio Item =====-->
+                <div class="filtr-item" data-groups='["illustration"]' data-index="6">
+                    <div class="work-grid-box-1">
+                        <div class="grediant-overlay opacity-85"></div>
+                        <div class="grid-image">
+                            <a href="#">
+                                <img src="{% static 'assets/images/works/project-3.jpg' %}" alt="Project name">
+                            </a>
+                        </div>
+                        <div class="grid-icon">
+                            <a href="#"> <i class="icon-link"></i> </a>
+                        </div>
+                        <div class="grid-body">
+                            <h6 class="grid-title">Sketch</h6>
+                            <p class="grid-description">Illustration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!-- **************************************-->
+<!-- **************Testimonials Section**************-->
+<!-- **************************************-->
+<section class="testimonials-section section-spacer bg-light" data-scroll-index="2">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">Happy Clients</small> Testimonials</h2>
+        </div>
+        <div class="slider-for">
+            <!--==== Single Testimonial Item=====-->
+            <div class="item">
+                <p>Repellat11 dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
+                    nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. Repellat
+                    dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea
+                    quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. </p>
+            </div>
+            <!--==== Single Testimonial Item=====-->
+            <div class="item">
+                <p>Repellat22 dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
+                    nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. Repellat
+                    dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea
+                    quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. </p>
+            </div>
+            <!--==== Single Testimonial Item=====-->
+            <div class="item">
+                <p>Repellat33 dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
+                    nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. Repellat
+                    dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea
+                    quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem. </p>
+            </div>
+        </div>
+        <!--==== Testimonial Navigation=====-->
+        <div class="slider-nav">
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="{% static 'assets/images/testimonial-image.jpg' %}" alt="Author image" />
+                </div>
+                <h6>Satya Nadella <small>CEO, Microsoft</small></h6>
+            </div>
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="{% static 'assets/images/testimonial-image-2.jpg' %}" alt="Author image" />
+                </div>
+                <h6>Sundar Pichai <small>CEO, Google</small></h6>
+            </div>
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="{% static 'assets/images/testimonial-image-3.jpg' %}" alt="Author image" />
+                </div>
+                <h6>Tim Cook <small>CEO, Apple</small></h6>
+            </div>
+            <!--==== Testimonial Nav Item=====-->
+            <div class="meta-data">
+                <div class="author-image">
+                    <img src="{% static 'assets/images/testimonial-image.jpg' %}" alt="Author image" />
+                </div>
+                <h6>Satya Nadella <small>CEO, Microsoft</small></h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- **************************************-->
+<!-- **************Pricing**************-->
+<!-- **************************************-->
+<section class="pt-100 pb-80" data-scroll-index="3">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">Flexible</small> Programs</h2>
+        </div>
+        <div class="row">
+            <!--==== Single Pricing Box =====-->
+            <div class="col-md-4 mb-30" data-aos="zoom-in" data-aos-duration="300">
+                <div class="pricing-card-box-1 box-shadow">
+                    <div class="pricing-header bg-primary">
+                        <h4 class="plan-title">Short Courses</h4>
+                        <h2 class="plan-price">
+                            <!-- <sup>$</sup>10<small>/ Per month</small> -->
+                        </h2>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="list-unstyled">
+                            <li><strong>6</strong> Months Support</li>
+                            <li><strong>2</strong> Demos</li>
+                            <li>Unlimited updates</li>
+                            <li><strong>24/7</strong> Support</li>
+                            <li><strong>1</strong> Domain</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn btn-primary">
+                               read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==== Single Pricing Box =====-->
+            <div class="col-md-4 mb-30" data-aos="zoom-in" data-aos-duration="400">
+                <div class="pricing-card-box-1 recommanded-card box-shadow">
+                    <div class="pricing-header bg-primary">
+                        <h4 class="plan-title">Capacity Building</h4>
+                        <h2 class="plan-price">
+                            <!-- <sup>$</sup>25<small>/ Per month</small> -->
+                        </h2>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="list-unstyled">
+                            <li><strong>12</strong> Months Support</li>
+                            <li><strong>10</strong> Demos</li>
+                            <li>Unlimited updates</li>
+                            <li><strong>24/7</strong> Support</li>
+                            <li><strong>5</strong> Domain</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn btn-primary">
+                               read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==== Single Pricing Box =====-->
+            <div class="col-md-4 mb-30" data-aos="zoom-in" data-aos-duration="500">
+                <div class="pricing-card-box-1 box-shadow">
+                    <div class="pricing-header bg-primary   ">
+                        <h4 class="plan-title">Competitions</h4>
+                        <h2 class="plan-price">
+                            <!-- <sup>$</sup>49<small>/ Per month</small> -->
+                        </h2>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="list-unstyled">
+                            <li>Unlimited Support</li>
+                            <li>Unlimited Demos</li>
+                            <li>Unlimited updates</li>
+                            <li><strong>24/7</strong> Support</li>
+                            <li>Unlimited Domain</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn btn-primary">
+                                read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- **************************************-->
+<!-- **************Our Members**************-->
+<!-- **************************************-->
+<section class="our-members pt-100 pb-80 bg-light" data-scroll-index="4">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">Our</small> Team</h2>
+        </div>
+        <div class="row">
+            <!--==== Single Member Box =====-->
+            <div class="col-md-4 mb-30" data-aos="fade-up" data-aos-duration="400">
+                <a href="#" class="team-box-1">
+                    <div class="grediant-overlay opacity-85"></div>
+                    <div class="grid-image">
+                        <img src="{% static 'assets/images/member-1.jpg' %}" alt="Team Member">
+                    </div>
+                    <div class="grid-body">
+                        <h6 class="grid-title">GhulamReza Pazhwak </h6>
+                        <p class="grid-description">Founder and President</p>
+                    </div>
+                </a>
+            </div>
+            <!--==== Single Member Box =====-->
+            <div class="col-md-4 mb-30" data-aos="fade-up" data-aos-duration="500">
+                <a href="#" class="team-box-1">
+                    <div class="grediant-overlay opacity-85"></div>
+                    <div class="grid-image">
+                        <img src="{% static 'assets/images/member-2.jpg' %}" alt="Team Member">
+                    </div>
+                    <div class="grid-body">
+                        <h6 class="grid-title">Monica Collier </h6>
+                        <p class="grid-description">Team Conselor</p>
+                    </div>
+                </a>
+            </div>
+            <!--==== Single Member Box =====-->
+            <div class="col-md-4 mb-30" data-aos="fade-up" data-aos-duration="600">
+                <a href="#" class="team-box-1">
+                    <div class="grediant-overlay opacity-85"></div>
+                    <div class="grid-image">
+                        <img src="{% static 'assets/images/member-3.jpg' %}" alt="Team Member">
+                    </div>
+                    <div class="grid-body">
+                        <h6 class="grid-title">Mustafa Behzad </h6>
+                        <p class="grid-description">Executive Director </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- **************************************-->
+<!-- **************Blogs Section**************-->
+<!-- **************************************-->
+<section class="section-blog pt-100 pb-80" data-scroll-index="5">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">Our</small> Blogs</h2>
+        </div>
+        <!--==== Blogs Item =====-->
+        <div class="row">
+            <!--==== Single Blog Box =====-->
+            <div class="col-md-4 mb-30" data-aos="fade-up" data-aos-duration="300">
+                <div class="blog-box-1 theme-1">
+                    <img src="{% static 'assets/images/blog/about.webp' %}" alt="Blog image">
+                    <div class="blog-body">
+                        <ul class="blog-meta">
+                            <li><i class="fa fa-user text-primary"></i>John doe</li>
+                            <li><i class="fa fa-clock-o text-primary"></i>18 Oct</li>
+                            <li><i class="fa fa-comments text-primary"></i>57</li>
+                        </ul>
+                        <a href="#" class="blog-title">
+                            <h6>About us</h6>
+                        </a>
+                        <p class="blog-description">The Awareness Brokers Foundation has been established to spread the 
+                            awareness needed to create a common intellectual boundary </p>
+                        <a class="more-link" href="#">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--==== Single Blog Box =====-->
+            <div class="col-md-4 mb-30" data-aos="fade-up" data-aos-duration="400">
+                <div class="blog-box-1 theme-1">
+                    <img src="{% static 'assets/images/blog/about.webp' %}" alt="Blog image">
+                    <div class="blog-body">
+                        <ul class="blog-meta">
+                            <li><i class="fa fa-user text-primary"></i>John doe</li>
+                            <li><i class="fa fa-clock-o text-primary"></i>18 Oct</li>
+                            <li><i class="fa fa-comments text-primary"></i>57</li>
+                        </ul>
+                        <a href="#" class="blog-title">
+                            <h6>Give animation a shot</h6>
+                        </a>
+                        <p class="blog-description">Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+                            Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                        <a class="more-link" href="#">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--==== Single Blog Box =====-->
+            <div class="col-md-4 mb-30" data-aos="fade-up" data-aos-duration="500">
+                <div class="blog-box-1 theme-1">
+                    <img src="{% static 'assets/images/blog/blog3.jpg' %}" alt="Blog image">
+                    <div class="blog-body">
+                        <ul class="blog-meta">
+                            <li><i class="fa fa-user text-primary"></i>John doe</li>
+                            <li><i class="fa fa-clock-o text-primary"></i>18 Oct</li>
+                            <li><i class="fa fa-comments text-primary"></i>57</li>
+                        </ul>
+                        <a href="#" class="blog-title">
+                            <h6>Use type centric approach</h6>
+                        </a>
+                        <p class="blog-description">Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+                            Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                        <a class="more-link" href="#">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- **************************************-->
+<!-- **************Contact Us**************-->
+<!-- **************************************-->
+<section class="contact-us bg-light" data-scroll-index="6">
+    <div class="container-fluid">
+        <div class="row align-items-stretch">
+            <div class="col-md-6 p-0" data-aos="fade" data-aos-duration="400">
+                <div class="address-container bg2 h-100">
+                    <!--==== Grediant Overlay =====-->
+                    <div class="grediant-overlay-reverse opacity-85"></div>
+                    <!--==== Contect Us Text =====-->
+                    <div class="address-content">
+                        <!--==== Address Text =====-->
+                        <div class="address-info">
+                            <h2>Dehbouri, Kabul, Afghanistan </h2>
+                        </div>
+                        <!--==== Phone Number =====-->
+                        <div class="address-info">
+                            <p><strong>Office telephone</strong> : +93 70 579 0365</p>
+                            <!-- <p><strong>Mobile</strong> : +93 70 579 0365</p> -->
+                        </div>
+                        <!--==== Mail Address =====-->
+                        <div class="address-info">
+                            <p><strong>Email</strong> : awarenessbf@gmail.com</p>
+                            <!-- <p><strong>Enquiries</strong> : awarenessbf@gmail.com</p> -->
+                        </div>
+                        <!--==== Social Links =====-->
+                        <div class="social-link social-white">
+                            <a href="https://www.facebook.com/AwarenessBrokers" class="fb"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/AwarenessBrokers" class="tw"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/AwarenessBrokers/" class="ln"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCmf6Db_UgHtg0ZcXAQqkAaw" class="gplus"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-0">
+                <!--==== Google Map Area =====-->
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1845.123689674548!2d69.11953635809985!3d34.51210257573124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d16f35555eb7b7%3A0x22e0a6d18c6375d1!2sSevom%20Aqrab%20Rd%2C%20Kabol%2C%20Afghanistan!5e0!3m2!1sen!2sae!4v1613346516352!5m2!1sen!2sae" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- **************************************-->
+<!-- **************Contact Us Section**************-->
+<!-- **************************************-->
+<section class="contact-us-form theme-1 section-spacer" data-scroll-index="6">
+    <div class="container">
+        <!--==== Section Heading Text =====-->
+        <div class="section-header">
+            <h2><small class="text-primary">contact us</small>Get in touch</h2>
+        </div>
+        <!--==== Contact Us form =====-->
+        <form id="validation-form" class="h-100" novalidate="novalidate" data-aos="fade"
+            data-aos-duration="400">
+            <div id="message" class="alert alert-success d-none"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="validation-firstname"
+                            placeholder="Firstname">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="validation-lastname"
+                            placeholder="Lastname">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="validation-email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="validation-phone" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <textarea class="form-control message" name="validation-message"
+                            placeholder=" Message"></textarea>
+                    </div>
+                </div>
+                <div class="w-100 text-center">
+                    <button type="submit" class="btn btn-primary btn-rounded">Contact Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- **************************************-->
+<!-- **************Client Section**************-->
+<!-- **************************************-->
+<div class="sponsors section-spacer bg-light" data-scroll-index="6">
+    <div class="container">
+        <div class="owl-carousel">
+            <!--==== Single Client Logo =====-->
+            <div class="item">
+                <div class="image-box">
+                    <img src="{% static 'assets/images/brand-1.png' %}" alt="Brand name">
+                </div>
+            </div>
+            <!--==== Single Client Logo =====-->
+            <div class="item">
+                <div class="image-box">
+                    <img src="{% static 'assets/images/brand-2.png' %}" alt="Brand name">
+                </div>
+            </div>
+            <!--==== Single Client Logo =====-->
+            <div class="item">
+                <div class="image-box">
+                    <img src="{% static 'assets/images/brand-3.png' %}" alt="Brand name">
+                </div>
+            </div>
+            <!--==== Single Client Logo =====-->
+            <div class="item">
+                <div class="image-box">
+                    <img src="{% static 'assets/images/brand-4.png' %}" alt="Brand name">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    {% endblock content %}
