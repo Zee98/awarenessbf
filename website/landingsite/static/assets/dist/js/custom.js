@@ -200,8 +200,8 @@ function slickSlider(){
 function typewriter(){
     if ($("#typewriter").length) {
         new Typed('#typewriter', {
-            strings: ["Awareness of today is Solution of tomorrow ", "Come together for an Aware & United community"],
-            typeSpeed: 100,
+            strings: ["Awareness of today is Solution of tomorrow ", "Come together for an Aware and United community"],
+            typeSpeed: 50,
             backSpeed: 50,
             loop: true,
             backDelay: 1000
