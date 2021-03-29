@@ -1,0 +1,18 @@
+
+1. cover back :: is going to be designed by him
+2. our team changed to team
+3. the self writing second parameter is altered
+4. the 10 yeears oc excellence has been removed as it is not a photo
+5. the step has changed to mission, vision, goals with icons
+6. the icons has changed on members and visitors counters
+7. initiatives: logos of initiatives instead of images 
+	and the initiatives to be shared also not in the wix website
+8. programs to be made four columns 
+9. team members also four columns 
+10. blogs are dynamic; meaning that you can have as much as you can. no limit on this. 
+	also, deferent users can have blogs. so basically, the site has many users which can create blogs.
+	blogs also has another main page where lists all the blogs from all users according the date and also 
+	each blog post has its own page with details and comments 
+11. partners logos to be shares in png in small size like 100 X 100 px or more-less
+
+12. logo text is black and is not 150 to 30 px
